@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Playwrite England SemiJoined;
+}
+.content{
+    background-color: #dcb691;
+}
+.container-fluid{
+    background-color: #af6e4e;
+    color: white;
+    height: 80px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.list1 ul {
+    display: flex;
+   list-style: none;
+   padding-top: 15px;
+   padding-right: 40px;
+   
+   gap: 40px;
+   align-items: center;
+   text-align: center;
+   justify-content: end;
+  
+}
+.list1 ul li a{
+    margin: 20px;
+    padding: 4px 10px 6px 10px;
+    text-align:auto;
+    text-decoration: none;
+    color: white;
+    border: solid 1px;
+    border-color: black;
+    border-style: hidden;
+    border-radius: 10px;
+    font-size: 18px;
+   
+}
+.logosite img{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 50px;
+   
+}
+.nameLogo{
+   margin-left: -440px;
+   font-size: 25px;
+   font-weight: 500;
+}
+.list1 ul li a:hover{
+    background-color: #b08968;
+    transition: 0.3s ease;
+}
+..carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item img{
+    height: 500px;
+    width: 550px;
+    margin: 350px;
+    margin-top: 0px;
+}
+.carousel-indicators{
+    padding-top: -300px;
+}
+.carousel-caption{
+    font-size: 25px;
+}
